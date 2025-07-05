@@ -1,13 +1,13 @@
 [Server]
 ;格式:服务显示名称|服务器名称|服务器地址|端口|防火墙端口(0表示不使用防火墙)|微端IP|微端端口(0表示不使用微端)=分组
 
-测试传奇一区|测试复古传奇|127.0.0.1|7000|0|127.0.0.1|0=本地测试
+；测试传奇一区|测试复古传奇|127.0.0.1|7000|0|127.0.0.1|0=本地测试
 1.76传奇一区|1.76复古传奇|nl110711328n.vicp.fun|35870|0|127.0.0.1|0=电信区
 
 
 [expand]
 ;列表分组展开设置,1为自动展开,0为手动点击展开
-本地测试=1
+；本地测试=1
 电信区=1
 
 
@@ -41,65 +41,65 @@ MachineCodeUrl=http://www.xkdlq.net/MachineCode.txt
 
 [LoginUp]
 ;登陆器版本号请保持和配置器里的版本号同
-Ver=0
+；Ver=0
 
 ;登陆自动升级地址
-DownUrl=http://www.xkdlq.net/登录器名称.exe
+；DownUrl=http://www.xkdlq.net/登录器名称.exe
 
 [DataUp]
 
 ;更新文件数量
-Count=0
+；Count=0
 
 ;以下是补丁自动更新设置内容
 
 ;第一个补丁文件的版本号
-Ver1=1
+；Ver1=1
 
 ;保存路径登陆器当前路径下写.\就可以了.注:补丁要用我们自带的补丁打包工具做,生成后把格式改成.z
-SaveDir1=.\
+；SaveDir1=.\
 SaveName1=aaa.z
 
 ;补丁下载地址
-DownUrl1=http://www.xkdlq.net/aaa.z
+；DownUrl1=http://www.xkdlq.net/aaa.z
 
 ;是否7z压缩格式
-Zip1=1
+；Zip1=1
 
 ;0=不删除 1=删除
-DeleteFile1=0
+；DeleteFile1=0
 
 ;MD5值为空时将只更新一次，补丁的MD5值获取方法：把补丁拖动到登陆器配置器上就可以
-MD51 =2476A0458E56039F916105EC424EC518
+；MD51 =2476A0458E56039F916105EC424EC518
 
 
 ;第二个补丁文件的版本号
-Ver2=0
+；Ver2=0
 
 ;保存路径
-SaveDir2=.\
+；SaveDir2=.\
 
-SaveName2=bbb.z
+；SaveName2=bbb.z
 
 ;下载路径
-DownUrl2=http://www.xkdlq.net/bbb.z
+；DownUrl2=http://www.xkdlq.net/bbb.z
 
 ;是否7z压缩格式
-Zip2=1
+；Zip2=1
 
 ;0=不删除 1=删除
-DeleteFile2=0
+；DeleteFile2=0
 
 ;MD5值为空时将只更新一次，补丁的MD5值获取方法：把补丁拖动到登陆器配置器上就可以
-MD52 =2476A0458E56039F916105EC424EC518
+；MD52 =2476A0458E56039F916105EC424EC518
 
 ;第三方防火墙模块更新地址
 [LoginDLL]
 
 ;文件MD5
-MD5 =8476A0458E56039F916105EC424EC519
+；MD5 =8476A0458E56039F916105EC424EC519
 
 ;防火墙模块更新地址，请使用自已的模块地址,文件名随意，
 ;登陆器下载后自动保存为LoginDll.dll，如果.dll不能下载请改名
-DownUrl=http://www.xkdlq.net/LoginDll.dll
+；DownUrl=http://www.xkdlq.net/LoginDll.dll
 
