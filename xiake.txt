@@ -26,18 +26,18 @@ GameUrl=http://www.baidu.com
 MoneyUrl=http://www.baidu.com
 
 ;1 启用第三方防火墙采集 0使用安全盾  
-FenDun=1
+；FenDun=1
 
 ;防火墙验证模式 默认为1，只对第三方防火墙有用
-FenDunMod=1
+；FenDunMod=1
 
 ;风盾防火墙新采集模式 0默认老模块 1启用新采集模式
 ;当FenDunNewMod =1时，采集端口支持风盾自定义加密，请用风盾的工具加密采集端口
-FenDunNewMod = 1
+；FenDunNewMod = 1
 
 ;机器码黑名单地址,所有区可以共用一份机器码名单
 
-MachineCodeUrl=http://www.xkdlq.net/MachineCode.txt
+；MachineCodeUrl=http://www.xkdlq.net/MachineCode.txt
 
 [LoginUp]
 ;登陆器版本号请保持和配置器里的版本号同
